@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="HtmlElement_tests.HtmlElementTest-20160602101949" skipped="0" tests="23" time="0.000">
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_empty_html_object" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_dict_is_empty_unless_specified" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_has_none_text_unless_specified" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_is_blank_initially" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_nested_no_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_nested_with_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_not_nested" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_nested_no_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_nested_with_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_not_nested" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_element_list" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_full_html" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_empty_html" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_no_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_with_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_with_body_and_head" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_get_element" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_get_nested_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_has_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_set_element" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_set_nested_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_string_method" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_string_output_of_html_element" time="0.000"/>
+	<system-out>
+<![CDATA[<a href='http://www.google.com'
+	<a href='http://www.google.com'
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

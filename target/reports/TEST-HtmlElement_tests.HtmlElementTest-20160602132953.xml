@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="HtmlElement_tests.HtmlElementTest-20160602132953" skipped="0" tests="27" time="0.000">
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_empty_html_object" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_dict_is_empty_unless_specified" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_has_none_text_unless_specified" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_is_blank_initially" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_nested_no_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_nested_with_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_with_attributes_not_nested" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_nested_no_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_nested_with_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_element_string_without_attributes_not_nested" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_change_full_html" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_change_has_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_element_list" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_full_html" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_empty_html" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_no_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_with_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_with_body_and_head" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_get_element" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_get_nested_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_get_nested_level_with_element_list" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_has_body" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_set_element" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_set_nested_level" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_string_method" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_string_output_of_html_element" time="0.000"/>
+	<testcase classname="HtmlElement_tests.HtmlElementTest" name="test_html_object_generate_full_html_with_body_head_and_elements" time="0.000">
+		<failure message="'&lt;!DOCTYPE html&gt;\n &lt;html&gt;\n&lt;head&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;a&gt;Anchor&lt;/a&gt;\n&lt;/body&gt;\n&lt;/html&gt;' != '&lt;!DOCTYPE html&gt;\n &lt;html&gt;\n&lt;head&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;/body&gt;\n&lt;/html&gt;'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\tagg8\Documents\Programming Stuff\Python\HTMLBuilder\src/unittest/python\HtmlElement_tests.py", line 160, in test_html_object_generate_full_html_with_body_head_and_elements
+    self.assertEqual("<!DOCTYPE html>\n <html>\n<head>\n</head>\n<body>\n<a>Anchor</a>\n</body>\n</html>", html_obj.html_string)
+AssertionError: '<!DOCTYPE html>\n <html>\n<head>\n</head>\n<body>\n<a>Anchor</a>\n</body>\n</html>' != '<!DOCTYPE html>\n <html>\n<head>\n</head>\n<body>\n</body>\n</html>'
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[<a href='http://www.google.com'
+	<a href='http://www.google.com'
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
