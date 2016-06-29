@@ -214,7 +214,8 @@ class Html_Builder(Frame):
 		#self.html_object.meta_dict = self.temp_dict
 	
 	def order_html(self):
-		square = self.html_object.is_full_html
+		self.order_label = Label(root, text='Order Elements:')
+		self.order_label.place(x=20, y=275)
 		
 	def delete_html(self):
 		if not self.html_object.element_list:
